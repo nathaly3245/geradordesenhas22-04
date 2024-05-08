@@ -3,28 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Jersey+25&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Gerador de senhas</title>
+    <title>gerador de senhas</title>
 </head>
 <body>
-
-<section class="conteudo">
-    <div class="conteudo_titulo">
+   
+   <section>
+    
+    <div>
         <img src="unlock.svg" alt="gerador de senhas">
-        <h2 class="titulo_principal">Gerador da nathy</h2>
-        <h3 class="titulo_secundario">Gere automaticamente uma senha aleatória e segura</h3>
+        <h2 class="titulo_principal">escolha uma senha</h2>  
+        <h3 class="titulo_secundario">gere automaticamente uma senha aleatória e segura</h3>
     </div>
-    <div> 
+   
+     <div>
+         <label for="senha">senha</label>
+         <input name="senha" type="text" id="campo-senha">
+     </div>
 
-        <label for="senha">senha</label>
-        <input name="senha" type="text" id="campo-senha">
-    </div>
-</section>
-
-
+    </section>
+   
+<div>
+         <h3>personalize sua senha</h3>
+   <div class="parametro-coluna__senha">
+        <div class="parametro-senha"></div>
+            <h4 class="parametro-senha__titulo">número de caracteres</h4>
+             <div class="parametro-senha-botoes">
+                <button class="parametro-senha__botao">-</button>
+                <p class="parametro-senha__texto">12</p>
+                <button class="parametro-senha__botao">+</button>
+             </div>
+   </div>          
+        
+</div>
+   
+   
+   
+   
+   
+   
     
 </body>
 </html>
